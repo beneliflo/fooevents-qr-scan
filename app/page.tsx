@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import QrReader from 'react-qr-scanner'
 
-const QRScanner: React.FC<void> = () => {
+const QRScanner: React.FC = () => {
   const [error, setError] = useState<any>(null);
   const [scannedData, setScannedData] = useState<any | null>(null);
 
